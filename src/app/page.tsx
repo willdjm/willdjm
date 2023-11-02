@@ -11,6 +11,7 @@ import { NavBar } from './components/NavBar';
 import { WDJMCorp } from './components/WDJMCorp';
 import { AboutMe } from './components/About';
 import { Portifolio } from './components/Portifolio';
+import { Tec } from './components/Tec';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 <WDJMCorp/>
 <AboutMe/>
 <Portifolio/>
+<Tec/>
 
 </main>
   )
