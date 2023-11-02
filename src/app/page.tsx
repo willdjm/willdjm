@@ -10,6 +10,7 @@ import Link from 'next/link';
 import { NavBar } from './components/NavBar';
 import { WDJMCorp } from './components/WDJMCorp';
 import { AboutMe } from './components/About';
+import { Portifolio } from './components/Portifolio';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
 <ParticlesComponent id="tsparticles" />
 <WDJMCorp/>
 <AboutMe/>
+<Portifolio/>
 
 </main>
   )
