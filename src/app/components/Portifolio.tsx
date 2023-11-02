@@ -1,12 +1,16 @@
 'use client'
 
+import { AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
+import { GrReactjs } from 'react-icons/gr';
+import { HiOutlineDesktopComputer } from 'react-icons/hi';
+import { BsLinkedin, BsWhatsapp } from 'react-icons/bs';
+
 import Link from 'next/link';
 
 export function Portifolio() {
 
     return (
-
-<section id='port' className="text-white top-0 lg:h-screen h-full px-4 lg:py-0 py-28 bg-black items-center justify-center text-center lg:flex lg:flex-col" >
+      <section id='port' className="text-white top-0 lg:h-screen h-full px-4 lg:py-0 py-28 bg-black items-center justify-center text-center lg:flex lg:flex-col" >
 
       <div className='items-center justify-center w-full flex flex-col max-w-6xl'>
 <div className='max-w-6xl w-full items-center justify-center lg:flex gap-5'>
