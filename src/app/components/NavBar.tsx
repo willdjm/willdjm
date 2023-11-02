@@ -57,9 +57,7 @@ export function NavBar() {
                 <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
                 <Linkk className='cursor-pointer' href="#port" onClick={() => setNavbar(!navbar)}>PORTLOFIO</Linkk>
                 </li>
-                <li className="text-base  text-white py-2 px-6 md:py-0 md:px-0 text-center border-b-2 md:border-b-2 md:border-opacity-0 border-white md:hover:bg-transparent">
-                <Linkk className='cursor-pointer' href="#tec" onClick={() => setNavbar(!navbar)}>CONTACT</Linkk>
-                </li>
+
 
 
                 </ul>
