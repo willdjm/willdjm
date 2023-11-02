@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import Linkk from 'next/link';
 import { useState } from 'react';
 import { BiMenu } from 'react-icons/bi';

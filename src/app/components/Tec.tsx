@@ -1,11 +1,7 @@
 'use client'
 
-import { AiFillGithub, AiOutlineInstagram } from 'react-icons/ai';
 import { GrReactjs } from 'react-icons/gr';
 import { HiOutlineDesktopComputer } from 'react-icons/hi';
-import { BsLinkedin, BsWhatsapp } from 'react-icons/bs';
-
-import Link from 'next/link';
 
 export function Tec() {
 
