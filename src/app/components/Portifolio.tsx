@@ -13,17 +13,17 @@ export function Portifolio() {
       <section id='port' className="text-white top-0 lg:h-screen h-full px-4 lg:py-0 py-28 bg-black items-center justify-center text-center lg:flex lg:flex-col" >
 
       <div className='items-center justify-center w-full flex flex-col max-w-6xl'>
-<div className='max-w-6xl w-full items-center justify-center lg:flex gap-5'>
-<div className='w-full max-w-sm'>
-<h2 className='items-start justify-start flex w-full text-4xl font-semibold pb-4' >
+<div className='max-w-6xl w-full items-center justify-center md:flex gap-5'>
+<div className='w-full md:max-w-xs'>
+<h2 className='items-start justify-start flex w-full md:text-4xl text-xl font-semibold pb-4' >
 Portifólio
 </h2>
-<p  className='items-start text-left text-lg justify-start flex w-full'>
+<p  className='items-start text-left md:text-lg text-sm justify-start flex w-full'>
 In my work, I am dedicated to delivering innovative, user-centric solutions that push the boundaries of technology. I specialize in crafting robust and scalable web applications,or websites providing both frontend and backend development services.
 </p>
 </div>
 
-<div className='grid lg:grid-cols-2 w-full pt-10  gap-5 items-center justify-center justify-items-center'>
+<div className='grid md:grid-cols-2 w-full pt-10  gap-5 items-center justify-center justify-items-center'>
 
 <div className="overflow-hidden max-w-xs aspect-vide cursor-pointer relative group">
 <div className="z-50 opacity-0 group-hover:opacity-100 transition h-full duration-300 ease-in-out cursor-pointer absolute from-purple-400/80 to-transparent bg-gradient-to-t inset-x-0  text-white flex justify-center items-center">

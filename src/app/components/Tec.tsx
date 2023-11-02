@@ -10,9 +10,9 @@ import Link from 'next/link';
 export function Tec() {
 
     return (
-      <section id='tec' className="text-white top-0 lg:h-screen h-full px-4 lg:py-0 py-28 bg-black items-center justify-center text-center lg:flex lg:flex-col" >
+      <section id='tec' className="text-white top-0 lg:h-screen h-full px-4 md:py-0 py-28 bg-black items-center justify-center text-center md:flex md:flex-col" >
 
-      <div className='items-center justify-center w-full flex flex-col max-w-6xl'>
+      <div className='items-center justify-center w-full md:flex md:flex-col max-w-6xl'>
 <div className='flex items-center justify-center w-full py-10'>
 <h2 className='items-start justify-start flex w-full text-4xl font-semibold' >
 Tecnologias
@@ -20,9 +20,9 @@ Tecnologias
 </div>
 
 <div className='max-w-5xl w-full items-center justify-center flex flex-col'>
-<div className='lg:flex  items-center justify-center'>
+<div className='lg:flex grid md:grid-cols-2 grid-cols-1 items-center justify-center'>
 
-<div className='border border-white lg:h-72 lg:w-96 h-60 w-72 py-10 lg:px-8 px-4'>
+<div className='border border-white lg:h-72 lg:w-96 h-60 w-72 py-10 md:px-8 px-4'>
 <div className='flex items-start justify-start pb-5 gap-6'>
 <GrReactjs size={50}/>
 <div className='items-start justify-start flex flex-col'>
@@ -43,7 +43,7 @@ Experienced in both functional and OOP: Dart, Python, Java, JavaScript, TypeScri
 </div>
 </div>
 
-<div className='border border-white lg:h-72 lg:w-96 h-60 w-72 py-10 lg:px-8 px-4'>
+<div className='border border-white lg:h-72 lg:w-96 h-60 w-72 py-10 md:px-8 px-4'>
 <div className='flex items-start justify-start pb-5 gap-6'>
 <HiOutlineDesktopComputer size={50}/>
 <div className='items-start justify-start flex flex-col'>
@@ -64,7 +64,7 @@ Passionate about UI/UX. Over 4 years of development experience in HTML, CSS, JS,
 </div>
 </div>
 
-<div className='border border-white lg:h-72 lg:w-96 h-60 w-72 py-10 lg:px-8 px-4'>
+<div className='border border-white lg:h-72 lg:w-96 h-60 w-72 py-10 md:px-8 px-4'>
 <div className='flex items-start justify-start pb-5 gap-6'>
 <HiOutlineDesktopComputer size={50}/>
 <div className='items-start justify-start flex flex-col'>
