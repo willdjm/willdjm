@@ -12,6 +12,7 @@ import { WDJMCorp } from './components/WDJMCorp';
 import { AboutMe } from './components/About';
 import { Portifolio } from './components/Portifolio';
 import { Tec } from './components/Tec';
+import { Footer } from './components/Footer';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
 <AboutMe/>
 <Portifolio/>
 <Tec/>
+<Footer/>
 
 </main>
   )
